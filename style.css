@@ -1,0 +1,9 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+.ball{
+    position: absolute;
+    height: 100px;
+    top: 700px;
+}
