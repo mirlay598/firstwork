@@ -1,16 +1,52 @@
 body{
     justify-content: center;
     display: flex;
+    background: url(img/cbe8230004b895b545b61337f8d0ff99.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-y: -900px;
 }
 .ball{
     position: absolute;
     height: 100px;
     top: 710px;
+    transition: 2s;
 }
 
 .dot{
     width: 100px;
     height: 100px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0);
     border-radius: 100px;
+    position: absolute;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.dot1{
+    left: 500px;
+    top: 100px;
+}
+.dot2{
+    left: 500px;
+    top: 400px;
+}
+.dot3{
+    left: 1300px;
+    top: 100px;
+}
+.dot4{
+    left: 1300px;
+    top: 400px;
+}
+.dot5{
+    left: 900px;
+    top: 100px;
+}
+.dot6{
+    left: 900px;
+    top: 400px;
+}
+.dot:hover{
+    background-color: rgba(127, 255, 212, 0.473)!important;
 }
